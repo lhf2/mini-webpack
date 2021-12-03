@@ -1,1 +1,1 @@
-# mini-webpack
+# algorithm-library
