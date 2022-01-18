@@ -29,6 +29,7 @@ class Compiler {
     const plugins = this.options.plugins;
     if (Array.isArray(plugins)) {
       for (const plugin of plugins) {
+        // 调用apply的时候要传入compiler 这里的this指的就是compiler实例
         plugin.apply.call(plugin, this);
       }
     }

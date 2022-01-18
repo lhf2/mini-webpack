@@ -11,3 +11,6 @@ hook.tap('hello again', (name)=>{
   console.log(`hello ${name} again`)
 });
 hook.call('world');
+
+// hello world
+// hello world again
